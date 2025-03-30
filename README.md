@@ -53,11 +53,11 @@ I trained 5 different language models with varying hyperparameters:
 
 | Model    | Embedding Size | Hidden Size | Dropout | Epochs | Valid Perplexity |
 |----------|----------------|-------------|---------|--------|------------------|
-| Model01  | 250            | 250         | 0.5     | 20     | 56.40            |
-| Model02  | 250            | 250         | 0.5     | 30     | **56.08**        |
-| Model03  | 300            | 300         | 0.5     | 20     | 57.93            |
-| Model04  | 250            | 250         | 0.2     | 20     | 61.74            |
-| Model05  | 250            | 250         | 0.8     | 20     | 80.38            |
+| Model_A  | 250            | 250         | 0.5     | 20     | 56.40            |
+| Model_B  | 250            | 250         | 0.5     | 30     | **56.08**        |
+| Model_C  | 300            | 300         | 0.5     | 20     | 57.93            |
+| Model_D  | 250            | 250         | 0.2     | 20     | 61.74            |
+| Model_E  | 250            | 250         | 0.8     | 20     | 80.38            |
 
 ###  Sample Generation
 Generated sample text using the best-performing model (`Model_B`) can be found in the `samples` folder.
